@@ -159,6 +159,8 @@ clang-format integration for git.
 %setup -T -q -b 1 -n %{clang_tools_srcdir}
 %setup -q -n %{clang_srcdir}
 
+mv ../%{clang_tools_srcdir} tools/extra
+
 %build
 
 %if 0%{?__isa_bits} == 64
