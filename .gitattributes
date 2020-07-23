@@ -1,0 +1,37 @@
+* text=auto
+
+# source code
+*.xml           text
+*.xsl           text
+*.txt           text
+*.ini           text
+*.py            text
+*.rb            text
+*.sql           text
+*.sh            text
+*.bat           text
+
+# server config
+.htaccess       text
+*.properties    text
+*.conf          text
+*.service       text
+
+# git config
+.gitattributes  text
+.gitignore      text
+.gitconfig      text
+.editorconfig   text
+
+# misc config
+*.access        text
+*.password      text
+*.example       text
+*.yaml          text
+*.yml           text
+.editorconfig   text
+
+# Documentation
+*.md            text
+LICENSE         text
+AUTHORS         text
