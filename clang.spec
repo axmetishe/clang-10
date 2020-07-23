@@ -156,15 +156,8 @@ Requires:	python3
 clang-format integration for git.
 
 %prep
-mv %{_builddir}/%{clang_srcdir} %{_builddir}/%{clang_srcdir}-old
-
 %setup -T -q -b 1 -n %{clang_tools_srcdir}
 %setup -q -n %{clang_srcdir}
-
-mv ../%{clang_tools_srcdir} tools/extra
-
-rm -rf %{_builddir}/%{clang_srcdir}
-mv %{_builddir}/%{clang_srcdir}-old %{_builddir}/%{clang_srcdir}
 
 %build
 
